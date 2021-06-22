@@ -1,0 +1,113 @@
+/*--------------------------------------------------------*/
+/*         Basic Setup*/
+/*--------------------------------------------------------*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 120.5%;
+}
+body {
+  font-family: sans-serif;
+  width: 100%;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  background-color: #e4f9f5;
+  text-align: center;
+}
+
+/*--------------------------------------------------------*/
+/*         Reusable Components*/
+/*--------------------------------------------------------*/
+
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  content: ".";
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
+/*--------------------------------------------------------*/
+/*         Headings*/
+/*--------------------------------------------------------*/
+
+h1 {
+  color: #2e6868;
+  font-size: 7rem;
+  margin-top: 8.5rem;
+}
+
+h2 {
+  color: #2e6868;
+}
+
+/* hr {
+  border: 6px gray dotted;
+  width: 100px;
+  border-width: 5px;
+  border-style: dotted none none;
+  position: relative;
+  left: 47%;
+} */
+
+/*--------------------------------------------------------*/
+/*         Header*/
+/*--------------------------------------------------------*/
+
+header {
+  width: 100%;
+  padding: 10px;
+}
+
+.title-name {
+  width: 70%;
+  height: 100vh;
+  position: relative;
+  margin: 0 auto;
+  border: 1px solid red;
+  text-align: center;
+}
+
+img {
+  float: left;
+  width: 100px;
+}
+
+#cloud1 {
+  position: absolute;
+  left: 55%;
+  top: 10%;
+}
+
+#cloud2 {
+  position: absolute;
+  left: 25%;
+  top: 5%;
+}
+#cloud3 {
+  position: absolute;
+  left: 90%;
+  top: 3%;
+}
+
+#mountain {
+  width: 260px;
+  position: absolute;
+  left: 35%;
+  top: 70%;
+}
+
+/*--------------------------------------------------------*/
+/*         About*/
+/*--------------------------------------------------------*/
+
+.section-about {
+  margin-top: 4rem;
+}
