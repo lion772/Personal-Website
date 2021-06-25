@@ -301,14 +301,17 @@ header {
 }
 
 .goals-format {
-  width: 50%;
-  margin: 0 auto;
-  text-align: justify;
+  float: right;
+  width: 49%;
+  text-align: center;
+  margin: 6rem 0 0 0;
+  position: relative;
+  right: 4rem;
 }
 
-.goals-format hr {
-  position: relative;
-  top: 1.7rem;
+.about-format {
+  width: 50%;
+  margin: 0 auto;
 }
 
 .contact-me {
@@ -367,16 +370,14 @@ header {
 }
 
 .lottie {
-  width: 500px;
+  width: 40%;
   height: 500px;
-  margin: 0 auto;
-  position: relative;
-  top: -60px;
   overflow: hidden;
   padding: 40px;
+  float: left;
+  margin: 0 4rem;
 }
 
 .lottie lottie-player {
-  position: absolute;
-  left: -4px;
+  width: 100%;
 }
