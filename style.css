@@ -365,3 +365,18 @@ header {
   filter: brightness(100%);
   transition: border-bottom 0.9s, filter 0.9s;
 }
+
+.lottie {
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  position: relative;
+  top: -60px;
+  overflow: hidden;
+  padding: 40px;
+}
+
+.lottie lottie-player {
+  position: absolute;
+  left: -4px;
+}
