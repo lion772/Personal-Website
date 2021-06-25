@@ -381,3 +381,10 @@ header {
 .lottie lottie-player {
   width: 100%;
 }
+
+.lottie-contact-me {
+  width: 40%;
+  margin: 0 auto;
+  position: relative;
+  top: -2rem;
+}
