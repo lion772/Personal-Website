@@ -388,3 +388,8 @@ header {
   position: relative;
   top: -2rem;
 }
+
+.lottie-search {
+  width: 25%;
+  margin: 0 auto;
+}
